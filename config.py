@@ -10,8 +10,8 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "7906213903:AAHCrLWgHppbCIdRm7kjnmovnBLIfCtPRVM") 
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","Nt1")     
-    DB_URL  = os.environ.get("DB_URL","mongodb+srv://Nt1:<db_password>@nt1.thwrt.mongodb.net/?retryWrites=true&w=majority&appName=NT1")
+    DB_NAME = os.environ.get("DB_NAME","n4animeedit")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://n4animeedit:u80hdwhlka5NBFfY@cluster0.jowvb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     PORT = os.environ.get("PORT", "25")
  
     # other configs
